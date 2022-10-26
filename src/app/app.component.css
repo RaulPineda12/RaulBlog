@@ -1,0 +1,41 @@
+.navbar{
+    background: linear-gradient(141deg, rgba(0, 204, 255, 0.668) 0%, rgb(20, 1, 128) 96%);
+    border-radius: 0px 0px 1em 1em;
+    top: 0;
+    position:fixed;
+    width: 100%;
+    left: 0; 
+    z-index: 9999; 
+}
+.navbar-a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.animate__animated.animate__bounceInLeft {
+  --animate-duration: 3s;
+}
+
+.img-round{
+  border-radius: 2em;
+}
+
+.navbar-a:hover {
+    transform: translateY(-6px);
+  }
+
+.icon-white{
+    color: white;
+}
+
+  body {
+    background: rgba(15, 0, 61, 0.996);
+  }
+  
+
+  .responsive-div {
+    max-width:100%; max-height:100%; margin:auto;
+    margin-top: 0.5em;
+  }
