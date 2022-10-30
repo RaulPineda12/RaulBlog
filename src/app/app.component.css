@@ -24,7 +24,7 @@
 .navbar-raul{
   color:darkblue; 
   text-shadow: 0 0 3px #ffffff, 0 0 9px #ffffff; 
-  margin-right: 10%;
+  margin-right: 15%;
   font-weight: bold;
   font-size: 1.7em;
   letter-spacing: 2px;
@@ -100,5 +100,33 @@ td{
 
 .col .img-fluid{
   width: 10em;
+}
+
+.animate__fadeIn{
+  --animate-duration: 3.3s;
+}
+
+/*Animation for Raul*/
+.animate__flash{
+  animation-duration: 9s;
+}
+
+.neonText {
+  margin-right: 15%;
+  color:white; 
+  text-shadow: 0 0 3px #ffffff, 0 0 9px #ffffff; 
+  font-weight: bold;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  margin-left: 5%;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(44, 37, 244),
+      0 0 21px rgb(0, 11, 71),
+      0 0 42px rgb(2, 2, 177),
+      0 0 82px rgb(2, 2, 177),
+      0 0 92px rgb(2, 2, 177),
+      0 0 102px rgb(2, 2, 177),
+      0 0 151px rgb(2, 2, 177);
 }
 
