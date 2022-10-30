@@ -9,14 +9,15 @@
 
     box-shadow: 0px 5px 19px -5px rgba(255,255,255,0.73);
     -webkit-box-shadow: 0px 5px 19px -5px rgba(255,255,255,0.73);
-    -moz-box-shadow: 0px 5px 19px -5px rgba(255,255,255,0.73);
+    -moz-box-shadow: 0px 5px 19px -50px rgba(255,255,255,0.73);
 
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: transparent black black black;
 }
 .navbar-a{
     color: white;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 2px;
 }
 
@@ -25,7 +26,7 @@
   text-shadow: 0 0 3px #ffffff, 0 0 9px #ffffff; 
   margin-right: 10%;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.7em;
   letter-spacing: 2px;
   margin-left: 1.5em;
 }
@@ -95,5 +96,9 @@ table, th, td {
 
 td{
   background-color: white;
+}
+
+.col .img-fluid{
+  width: 10em;
 }
 
