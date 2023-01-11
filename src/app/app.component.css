@@ -17,18 +17,8 @@
 .navbar-a{
     color: white;
     font-weight: bold;
-    font-size: 1.1em;
-    letter-spacing: 2px;
-}
-
-.navbar-raul{
-  color:darkblue; 
-  text-shadow: 0 0 3px #ffffff, 0 0 9px #ffffff; 
-  margin-right: 15%;
-  font-weight: bold;
-  font-size: 1.7em;
-  letter-spacing: 2px;
-  margin-left: 1.5em;
+    font-size: 1.0em;
+    letter-spacing: 1px;
 }
 
 .animate__animated.animate__fadeInDown {
@@ -112,7 +102,7 @@ td{
 }
 
 .neonText {
-  margin-right: 15%;
+  margin-right: 2.2em;
   color:white; 
   text-shadow: 0 0 3px #ffffff, 0 0 9px #ffffff; 
   font-weight: bold;
@@ -240,4 +230,35 @@ display: flex;
 margin-top: 10px;
 margin-bottom: 20px;
 }
+}
+
+.center-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  height: 30px;
+  color: white;  
+  border-radius: 3px;
+}
+
+.web-font{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.div-project{
+  box-shadow: 0px 0px 34px -11px rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 0px 34px -11px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 34px -11px rgba(255,255,255,1);
+
+  text-align: left; 
+  border: 7px double white; 
+  border-radius: 0em 0em 3em 3em;
+}
+
+.navbar-a{
+  font-size: 1.2em;
+}
+
+.bold-font{
+  font-weight: bold;
 }
